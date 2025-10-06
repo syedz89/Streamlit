@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-import plotly.graph_objects as go
+import plotly.express as px
 
 st.set_page_config(page_title="Budget Dashboard", layout="wide")
 
@@ -330,6 +330,5 @@ with tab1:
         else:
             st.info("No savings data added yet")
 
-# Footer
 st.markdown("---")
 st.caption("💡 Tip: Switch between months using the dropdown at the top. Each month has its own budget data!")
